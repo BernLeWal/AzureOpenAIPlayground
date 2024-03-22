@@ -1,6 +1,8 @@
-# Code-Generator
+# Microsoft Azure OpenAI Playground
 
-A gpt-based code generator to create source-code fragments using kotlin & jetpack compose for pre-defined scenarios
+## Samples
+
+* [code_generator.py](code_generator.py): A gpt-based code generator to create source-code fragments using kotlin & jetpack compose for pre-defined scenarios
 
 ## Pre-Requisites
 
@@ -9,7 +11,7 @@ A gpt-based code generator to create source-code fragments using kotlin & jetpac
 ## Installation
 
 * Create a [.env](.env) file in the project root. See [.env.sample](.env.sample)
-    * Important: set the AZURE_OPENAI_KEY environment variable
+    * Important: set the AZURE_OPENAI_* environment variables!
 
 * Install Python (>3.10), create virtual environment (venv) and activate it
 
@@ -28,4 +30,4 @@ pip freeze > requirements.txt
 
 ## Usage
 
-Run ```python generate.py```
+* [code_generator.py](code_generator.py): run ```python code_generator.py```

@@ -80,11 +80,11 @@ def generate_all_code(dialog_descriptions: list[str], variations: int=1):
 
 if __name__ == "__main__":
     # Generate kotlin code for a login dialog.
-    generate_code("login dialog")
+    #generate_code("login dialog")
 
     # Generate kotlin code for all dialog descriptions from dialogtypes.txt
     # load dialog descriptions from dialogtypes.txt
-    #with open("dialogtypes.txt", "r", encoding="utf-8") as f:
-    #    dds = f.readlines()
-    #    dds = [dd.strip() for dd in dds]    # remove leading/trailing whitespaces.
-    #generate_all_code(dds, 3)
+    with open("dialogtypes.txt", "r", encoding="utf-8") as f:
+        dds = f.readlines()
+        dds = [dd.strip() for dd in dds]    # remove leading/trailing whitespaces.
+    generate_all_code(dds, 3)
