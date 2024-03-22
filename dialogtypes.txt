@@ -1,0 +1,115 @@
+Login Dialog
+Save Dialog  
+Error Message Dialog  
+Confirmation Dialog  
+Input Dialog  
+Update Dialog  
+Password Reset Dialog  
+User Registration Dialog  
+Search Dialog  
+Options Dialog  
+Settings Dialog  
+Software Install Dialog  
+Font Selection Dialog  
+Color Selection Dialog  
+Network Settings Dialog  
+Help Dialog  
+About Dialog  
+License Agreement Dialog  
+Uninstall Dialog  
+Connection Dialog  
+Customer Support Dialog  
+Customization Dialog  
+Data Export Dialog  
+Data Import Dialog  
+Download Dialog  
+Upload Dialog  
+Page Setup Dialog  
+Print Preview Dialog  
+Progress Dialog  
+System Preferences Dialog  
+Time and Date Dialog  
+User Account Control Dialog  
+Warning Dialog  
+Find and Replace Dialog  
+File Compression Dialog  
+Image Adjustment Dialog  
+Photo Editing Dialog  
+Sound Adjustment Dialog  
+Video Editing Dialog  
+Email Setup Dialog  
+Database Connection Dialog  
+Server Connection Dialog  
+Firewall Settings Dialog  
+Privacy Settings Dialog  
+Accessibility Options Dialog  
+Language Selection Dialog  
+Screen Resolution Dialog  
+Software Update Dialog  
+Task Manager Dialog  
+Disk Cleanup Dialog  
+Defragmentation Dialog  
+Backup and Restore Dialog  
+Encryption Dialog  
+Virtual Private Network (VPN) Dialog  
+Antivirus Settings Dialog  
+Browser History Dialog  
+Cookie Settings Dialog  
+Add-Ons and Plugins Dialog  
+Software Debugging Dialog  
+3D Modeling Dialog in a CAD application  
+Simulation Dialog in a CAD application  
+Rendering Dialog in a CAD application  
+Code Compilation Dialog in a development environment  
+Git Repository Dialog in a development environment  
+Package Manager Dialog in a development environment
+Document Setup Dialog  
+Page Numbering Dialog  
+Table of Contents Dialog  
+Header and Footer Dialog  
+Spell Check Dialog  
+Grammar Check Dialog  
+Thesaurus Dialog  
+Insert Image Dialog  
+Hyperlink Dialog  
+Citation Dialog  
+Track Changes Dialog  
+Comment Dialog  
+Text Formatting Dialog  
+Paragraph Formatting Dialog  
+Style and Formatting Dialog  
+Bullets and Numbering Dialog  
+Mail Merge Dialog  
+Footnote and Endnote Dialog  
+AutoCorrect Options Dialog  
+Label Printing Dialog  
+Envelope Printing Dialog  
+Spreadsheet Cell Formatting Dialog  
+Chart Creation Dialog  
+PivotTable Dialog  
+Macro Dialog  
+Formula Dialog  
+Layer Dialog  
+Filter Dialog  
+Brush Dialog  
+Canvas Size Dialog  
+System Monitoring Dialog  
+Network Troubleshooting Dialog  
+Disk Partition Dialog  
+File Explorer Options Dialog  
+Task Scheduling Dialog  
+Power Options Dialog  
+Device Manager Dialog  
+System Restore Dialog  
+Keyboard and Mouse Settings Dialog  
+Sound and Audio Devices Dialog  
+Display Settings Dialog  
+User Account Management Dialog  
+Security and Maintenance Dialog  
+Remote Desktop Connection Dialog  
+VPN Connection Dialog  
+Windows Update Dialog  
+Bluetooth Devices Dialog  
+Network and Sharing Center Dialog  
+Troubleshooting Dialog  
+System Configuration Dialog

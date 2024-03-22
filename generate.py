@@ -4,7 +4,9 @@
 #Note: The openai-python library support for Azure OpenAI is in preview.
       #Note: This code sample requires OpenAI Python library version 1.0.0 or higher.
 import os
+import time
 from dotenv import load_dotenv
+from tqdm.autonotebook import tqdm
 from openai import AzureOpenAI
 
 
@@ -65,5 +67,24 @@ def generate_code(dialog_desc: str, variation: int=0) -> str:
     return completion_text
 
 
+def generate_all_code(dialog_descriptions: list[str], variations: int=1):
+    """ Generate kotlin+jetpack compose code for all dialog descriptions. """
+
+    for dialog_desc in tqdm(dialog_descriptions, unit="dialog", desc="Processing dialog descriptions"):
+        for variation in tqdm(range(0, variations), unit="variantion", desc=f"Processing variations of {dialog_desc}"):
+            generate_code(dialog_desc, variation)
+
+            # sleep for 10 second to avoid rate limiting. (6 requests per minute)
+            time.sleep(10)
+
+
 if __name__ == "__main__":
+    # Generate kotlin code for a login dialog.
     generate_code("login dialog")
+
+    # Generate kotlin code for all dialog descriptions from dialogtypes.txt
+    # load dialog descriptions from dialogtypes.txt
+    #with open("dialogtypes.txt", "r", encoding="utf-8") as f:
+    #    dds = f.readlines()
+    #    dds = [dd.strip() for dd in dds]    # remove leading/trailing whitespaces.
+    #generate_all_code(dds, 3)

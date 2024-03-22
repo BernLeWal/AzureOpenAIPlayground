@@ -21,6 +21,7 @@ pip install -r requirements.txt
 ```
 pip install python-dotenv
 pip install openai
+pip install tqdm
 
 pip freeze > requirements.txt
 ```
